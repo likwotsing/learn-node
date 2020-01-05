@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8"></meta>
+    <title>document</title>
+  </head>
+  <body>
+    <h1>Hello {{ message }}</h1>
+    <ul>
+      {{ each todos }}
+      <li> {{ $value.title }} <input type="checkbox" {{ $value.completed ? 'checked': '' }}> </li>
+      {{ /each }}
+    </ul>
+  </body>
+</html>
