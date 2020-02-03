@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "art-template": "^4.13.2",
+    "koa": "^2.11.0",
     "mime": "^2.4.4"
   },
   "devDependencies": {},
